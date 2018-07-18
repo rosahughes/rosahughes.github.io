@@ -42,7 +42,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: #33cccc;
 }
 
 hr.star-dark {
@@ -100,6 +100,7 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
+  font-family: serif;
 }
 
 #mainNav .navbar-brand {
@@ -116,7 +117,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #2C3E50;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -124,7 +125,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #2C3E50;
 }
 
 #mainNav .navbar-toggler {
@@ -134,8 +135,8 @@ section h2 {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -150,24 +151,25 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: #2C3E50;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: #2C3E50;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
+    font-size: 1rem;
+    letter-spacing: 0.0625rem;
   }
 }
 
 header.masthead {
   padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
 }
 
 header.masthead h1 {
@@ -177,6 +179,7 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
+  font-family: 'Cormorant Unicase', serif;
 }
 
 header.masthead img {
@@ -185,8 +188,8 @@ header.masthead img {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
+    padding-top: calc(6rem + 72px);
+    padding-bottom: 4rem;
   }
   header.masthead h1 {
     font-size: 4.75em;
@@ -335,7 +338,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18BC9C;
+  color: #ffcc00;
 }
 
 a:focus, a:hover, a:active {
@@ -347,11 +350,11 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #A8C686 !important;
+  background-color: #33cccc !important;
 }
 
 .bg-secondary {
-  background-color: #E4572E !important;
+  background-color: #ffcc00 !important;
 }
 
 .text-primary {
